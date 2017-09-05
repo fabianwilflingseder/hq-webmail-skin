@@ -18,8 +18,17 @@
 
 #topnav {
     background-image: url("images/hq-webmail_logo.png");
+	background-size: auto;
 }
 
+#taskbar {
+	padding-left: 260px;
+
 #login-form .box-inner {
+	padding: 90px 24px 24px;
     background:#666 url("/skins/hq-webmail/images/hq-webmail_logo.png") no-repeat scroll center 14px;
+}
+
+#rcmloginuser, #rcmloginpwd {
+	padding: 10px;
 }
