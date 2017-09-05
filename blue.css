@@ -15,3 +15,11 @@
 {
     background-color: #3c8dbc;
 }
+
+#topnav {
+    background-image: url("images/hq-webmail_logo.png");
+}
+
+#login-form .box-inner {
+    background:#666 url("/skins/hq-webmail/images/hq-webmail_logo.png") no-repeat scroll center 14px;
+}
