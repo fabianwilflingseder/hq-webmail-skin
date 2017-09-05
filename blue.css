@@ -25,8 +25,8 @@
 	padding-left: 260px;
 
 #login-form .box-inner {
+	background:#666 url("https://webmail.hauptquartier.tk/hq-webmail_logo.png") no-repeat scroll center 14px;
 	padding: 90px 24px 24px;
-    background:#666 url("/skins/hq-webmail/images/hq-webmail_logo.png") no-repeat scroll center 14px;
 }
 
 #rcmloginuser, #rcmloginpwd {
