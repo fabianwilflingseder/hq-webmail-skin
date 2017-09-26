@@ -1,7 +1,14 @@
+body {
+	background: url("images/hq-background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .minimal #taskbar a, #taskbar a {
     color: #edf7fc;
 }
-
 
 .minimal #topline,
 #topline {
@@ -23,12 +30,18 @@
 
 #taskbar {
 	padding-left: 260px;
+}
 
 #login-form .box-inner {
-	background:#666 url("https://webmail.hauptquartier.tk/hq-webmail_logo.png") no-repeat scroll center 14px;
 	padding: 90px 24px 24px;
+	background:#666 url("images/hq-webmail_logo.png") no-repeat scroll center 14px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #rcmloginuser, #rcmloginpwd {
 	padding: 10px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
