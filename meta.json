@@ -1,6 +1,6 @@
 {
 	"extends": "mabola",
-	"name": "HQ Webmail",
+	"name": "Wilflingseder Webmail",
 	"author": "Fabian Wilflingseder",
 	"license": "GNU General Public License",
 	"license-url": "http://www.gnu.org/licenses/gpl.html",
